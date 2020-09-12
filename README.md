@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Lesson 1- Web Studio Layout
+goit-markup-hw-02
+Lesson 3 & 4 CSS styles
