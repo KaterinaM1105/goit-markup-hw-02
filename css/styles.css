@@ -6,11 +6,15 @@
   --primary-background-color: #ffffff;
   --title-text-color: #212121;
   --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --primary-button-color: #2196f3;
+  --button-text-color: #ffffff;
 }
 body {
   background-color: var(--primary-background-color);
   font-family: var(--main-font);
   font-style: normal;
+  font-size: 14px;
 }
 .list {
   list-style: none;
@@ -30,9 +34,11 @@ h5 {
 }
 
 /* ======== LOGO ======== */
+
 .logo {
   font-family: var(--logo-font);
   text-decoration: none;
+  font-size: 26px;
 }
 .web-logo {
   color: #2196f3;
@@ -40,29 +46,131 @@ h5 {
 .studio-logo {
   color: #000000;
 }
+.background {
+  background-color: #2f303a;
+}
 
 /* ====== HEADER NAVIGATION LIST =======*/
 
 .header-item {
-  font-family: var(--main-font);
   color: var(--title-text-color);
+
+  font-family: var(--main-font);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
-.header-item:hover {
+.header-item:hover,
+.header-item:focus {
   color: #2196f3;
 }
 .contacts-item {
   color: var(--primary-text-color);
+
   font-family: var(--main-font);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
-.contacts-item:hover {
+.contacts-item:hover,
+.contacts-item:focus {
   color: #2196f3;
 }
 /* ======== HERO ======== */
+.hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ======== BUTTON ======== */
+
+.button {
+  background-color: var(--primary-button-color);
+  color: var(--button-text-color);
+
+  font-family: inherit;
+}
+/* ======= OUR ADVANTAGES ======== */
+
+.advantages-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ======= SERVICES ======= */
+.services-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ======== OUR TEAM ========*/
+
+.team-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-member {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ======= CONTACTS ========= */
+
+.address {
+  color: var(--secondary-text-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.contact-details {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
