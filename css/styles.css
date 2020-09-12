@@ -1,10 +1,25 @@
 :root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  /* Colors */
   --primary-background-color: #ffffff;
   --title-text-color: #212121;
+  --primary-text-color: #757575;
 }
 body {
   background-color: var(--primary-background-color);
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
 }
 h1,
 h2,
@@ -13,3 +28,41 @@ h4,
 h5 {
   font-family: "Roboto", sans-serif;
 }
+
+/* ======== LOGO ======== */
+.logo {
+  font-family: var(--logo-font);
+  text-decoration: none;
+}
+.web-logo {
+  color: #2196f3;
+}
+.studio-logo {
+  color: #000000;
+}
+
+/* ====== HEADER NAVIGATION LIST =======*/
+
+.header-item {
+  font-family: var(--main-font);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+.header-item:hover {
+  color: #2196f3;
+}
+.contacts-item {
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+.contacts-item:hover {
+  color: #2196f3;
+}
+/* ======== HERO ======== */
