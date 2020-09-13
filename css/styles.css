@@ -133,7 +133,9 @@ h5 {
 }
 /* ======= END SERVICES ======= */
 /* ======== OUR TEAM ========*/
-
+.team {
+  background-color: #f5f4fa;
+}
 .team-title {
   color: var(--title-text-color);
 
@@ -202,11 +204,17 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.address:hover {
+  color: var(--accent-color);
+}
 .contact-details {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+.contact-details:hover {
+  color: var(--accent-color);
 }
 /* ======= END CONTACTS ========= */
