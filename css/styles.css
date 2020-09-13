@@ -7,7 +7,7 @@
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
-  --primary-button-color: #2196f3;
+  --accent-color: #2196f3;
   --button-text-color: #ffffff;
 }
 body {
@@ -41,7 +41,7 @@ h5 {
   font-size: 26px;
 }
 .web-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .studio-logo {
   color: #000000;
@@ -59,10 +59,14 @@ h5 {
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
+  cursor: pointer;
 }
 .header-item:hover,
 .header-item:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.header-item:active {
+  color: blue;
 }
 .contacts-item {
   color: var(--primary-text-color);
@@ -74,7 +78,7 @@ h5 {
 }
 .contacts-item:hover,
 .contacts-item:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* ====== END HEADER NAVIGATION LIST =======*/
 /* ======== HERO ======== */
@@ -93,7 +97,7 @@ h5 {
 /* ======== BUTTON ======== */
 
 .button {
-  background-color: var(--primary-button-color);
+  background-color: var(--accent-color);
   color: var(--button-text-color);
 
   font-family: inherit;
@@ -168,8 +172,9 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.button-title:hover {
-  background-color: var(--primary-button-color);
+.button-title:hover,
+.button-title:focus {
+  background-color: var(--accent-color);
   color: var(--primary-background-color);
 }
 .portfolio-name {
@@ -197,6 +202,7 @@ h5 {
   line-height: 1.714;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .contact-details {
   color: rgba(255, 255, 255, 0.6);
