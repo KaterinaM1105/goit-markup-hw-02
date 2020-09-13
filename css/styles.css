@@ -49,7 +49,7 @@ h5 {
 .background {
   background-color: #2f303a;
 }
-
+/* ======== END LOGO ======== */
 /* ====== HEADER NAVIGATION LIST =======*/
 
 .header-item {
@@ -76,6 +76,7 @@ h5 {
 .contacts-item:focus {
   color: #2196f3;
 }
+/* ====== END HEADER NAVIGATION LIST =======*/
 /* ======== HERO ======== */
 .hero-title {
   color: #ffffff;
@@ -88,7 +89,7 @@ h5 {
   text-align: center;
   text-transform: uppercase;
 }
-
+/* ======== END HERO ======== */
 /* ======== BUTTON ======== */
 
 .button {
@@ -97,6 +98,7 @@ h5 {
 
   font-family: inherit;
 }
+/* ======== END BUTTON ======== */
 /* ======= OUR ADVANTAGES ======== */
 
 .advantages-title {
@@ -115,7 +117,7 @@ h5 {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
-
+/* ======= END OUR ADVANTAGES ======== */
 /* ======= SERVICES ======= */
 .services-title {
   color: var(--title-text-color);
@@ -126,6 +128,7 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* ======= END SERVICES ======= */
 /* ======== OUR TEAM ========*/
 
 .team-title {
@@ -153,6 +156,7 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* ======== END OUR TEAM ========*/
 
 /* ======== PORTFOLIO ======== */
 .button-title {
@@ -183,24 +187,22 @@ h5 {
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
+/* ======== END PORTFOLIO ======== */
 /* ======= CONTACTS ========= */
 
 .address {
   color: var(--secondary-text-color);
 
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.714;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .contact-details {
   color: rgba(255, 255, 255, 0.6);
-
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+/* ======= END CONTACTS ========= */
