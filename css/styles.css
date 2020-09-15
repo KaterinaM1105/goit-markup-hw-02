@@ -3,17 +3,19 @@
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
   /* Colors */
-  --primary-background-color: #ffffff;
+  --white-color: #ffffff;
+  --black-color: #000000;
   --title-text-color: #212121;
   --primary-text-color: #757575;
-  --secondary-text-color: #ffffff;
+  --section-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
   --accent-color: #2196f3;
-  --button-text-color: #ffffff;
+  --active-links-color: #3c20f3;
+  --contact-details-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: var(--primary-background-color);
+  background-color: var(--white-color);
   font-family: var(--main-font);
-  font-style: normal;
   font-size: 14px;
 }
 .list {
@@ -24,13 +26,6 @@ body {
 }
 .address {
   font-style: normal;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Roboto", sans-serif;
 }
 
 /* ======== LOGO ======== */
@@ -44,10 +39,13 @@ h5 {
   color: var(--accent-color);
 }
 .studio-logo {
-  color: #000000;
+  color: var(--black-color);
+}
+.footer-logo {
+  color: var(--white-color);
 }
 .background {
-  background-color: #2f303a;
+  background-color: var(--section-background-color);
 }
 /* ======== END LOGO ======== */
 /* ====== HEADER NAVIGATION LIST =======*/
@@ -61,11 +59,16 @@ h5 {
   letter-spacing: 0.02em;
 }
 .header-item:hover,
-.header-item:focus {
+.header-item:focus,
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--accent-color);
 }
 .header-item:active {
-  color: blue;
+  color: var(--active-links-color);
+}
+.header-items .link.current {
+  color: var(--accent-color);
 }
 .contacts-item {
   color: var(--primary-text-color);
@@ -75,14 +78,11 @@ h5 {
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
-.contacts-item:hover,
-.contacts-item:focus {
-  color: var(--accent-color);
-}
+
 /* ====== END HEADER NAVIGATION LIST =======*/
 /* ======== HERO ======== */
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -97,7 +97,7 @@ h5 {
 
 .button {
   background-color: var(--accent-color);
-  color: var(--button-text-color);
+  color: var(--white-color);
 
   font-family: inherit;
 }
@@ -134,7 +134,7 @@ h5 {
 /* ======= END SERVICES ======= */
 /* ======== OUR TEAM ========*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
 }
 .team-title {
   color: var(--title-text-color);
@@ -176,7 +176,7 @@ h5 {
 .button-title:hover,
 .button-title:focus {
   background-color: var(--accent-color);
-  color: var(--primary-background-color);
+  color: var(--white-color);
 }
 .portfolio-name {
   color: var(--title-text-color);
@@ -197,24 +197,26 @@ h5 {
 /* ======= CONTACTS ========= */
 
 .address {
-  color: var(--secondary-text-color);
+  color: var(--white-color);
 
   font-weight: 500;
   line-height: 1.714;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.address:hover {
+.address:hover,
+.address:focus {
   color: var(--accent-color);
 }
 .contact-details {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-details-color);
   font-style: normal;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
-.contact-details:hover {
+.contact-details:hover,
+.contact-details:focus {
   color: var(--accent-color);
 }
 /* ======= END CONTACTS ========= */
